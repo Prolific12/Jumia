@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jumia.css">
+    <link rel="stylesheet" href="jumia1.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <section id="dahsDisplay">
+        <div id="divLog">
+        </div>
+        <div id="pdisplay">
+        </div>
+        <div id="productDiv">
+            
+        </div>
+    </section>
+</body>
+<script src="jumia.js"></script>
+<script>
+    const user = JSON.parse(localStorage.getItem('user'));
+    
+    if (user) {
+        document.getElementById('divLog').innerHTML = `
+        <div id="dashdiv">
+            <button id="logout">Log Out</button>
+            </div>
+            `
+            document.getElementById("pdisplay").innerHTML = `
+            <h1>Welcome to your Dashboard ${user.fullname}</h1>  
+            <p>Email: ${user.email}</p>
+        `
+    } else {
+        alert('You are not authorized to be here');
+        window.location.href = 'signin.html'
+    }
+    document.getElementById('logout').addEventListener('click', () => {
+        localStorage.removeItem('user'); // Clear user data from sessionStorage
+        window.location.href = 'signup.html'; // Redirect to login page
+    });
+
+    const showItems = () => {
+    fetch('http://localhost:1234/products')
+    .then(res => res.json())
+    .then((data) => {
+        console.log("Fetched data:", data); // Check if data is fetched
+        const productsContainer = document.querySelector('#productDiv');
+        
+        if (!productsContainer) {
+            console.error("Error: #productDiv not found in the DOM.");
+            return;
+        }
+
+        data.forEach((produce) => {
+            console.log("Product data:", produce); // Log each product
+
+            // Create the product container div
+            const productDiv = document.createElement('div');
+            // const productDiv = document.getElementById("prodDisplay");
+            productDiv.classList.add('product');  // Added class instead of id
+            productDiv.setAttribute('onclick', `window.location.href='Goods.html?id=${produce.id}'`);
+            // Add inner HTML for product
+            productDiv.innerHTML = `
+            <img class="rounded" width="188px" height="250px" src="${produce.img}" alt="${produce.name}">
+            <div class="row d-flex align-items-center justify-content-center">
+            <span>${produce.name}</span>
+            <span><i class="fa-solid fa-naira-sign"></i>${produce.price}</span>
+            </div>
+            `;
+            
+            // Append the productDiv to the container in the DOM
+            productsContainer.appendChild(productDiv);
+        });
+    })
+    .catch((err) => {
+        console.error("Error fetching products:", err);
+    });
+}
+window.addEventListener("DOMContentLoaded", showItems);
+</script>
+</html>

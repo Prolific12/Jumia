@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signIn.css">
+    <link rel="stylesheet" href="jumia1.css">
+    <script src="https://kit.fontawesome.com/e464a2cebe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="signSection">
+        <div id="signDiv">
+            <div id="signImageDiv">
+                <img id="signImage" src="./Images/jumiaLogo.png" alt="">
+                <span id="signHead">Welcome to Back Jumia</span>
+            </div>
+            <div id="signText">
+                <span id="signHead">OR</span>
+                <span id="signPara">Don't have an account, why not <a href="signup.html">Sign Up</a></span>
+            </div>
+            <form action="" method="post" id="signInDiv">
+                <input id="log_email" class="signInput" type="email" name="email" placeholder="Email or Phone Number">
+                <input id="log_pass" class="signInput" name="password" type="password" placeholder="Password">
+                <i class="fa-solid fa-eye spaneye" id="spaneye"></i>
+                <!-- <div class="label"><label for="" id="label">Confirm your Password</label></div> -->
+                <!-- <input id="cpassword" class="signInput" name="cpassword" type="password" placeholder="Confirm Password">
+                <i class="fa-solid fa-eye spaneye"  id="spaneye"></i> -->
+            </form>
+            <div id="signButton">
+                <button id="continueBtn" onclick="signin()">Continue</button>
+                <p id="continueText">By continuing you agree to Jumia's <a id="continueLink" href="https://my.jumia.com.ng/interaction/WtIZX22SJNKzyO76a4jUb/en-ng/terms-and-conditions">Terms and Conditions</a></p>
+            </div>
+            <div id="paragraph">
+                <span id="paraDiv">For further support, you may visit the Help Center or contact our <span id="paraDiv">customer service team.</span></span>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </section>
+</body>
+<script src="jumia.js"></script>
+</html>

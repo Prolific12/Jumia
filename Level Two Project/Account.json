@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "id": "bc19",
+      "fullname": "Nicole",
+      "email": "nicole@gmail.com",
+      "password": "123nicole"
+    },
+    {
+      "id": "1914",
+      "fullname": "James",
+      "email": "james@gmail.com",
+      "password": "123james"
+    },
+    {
+      "id": "83ac",
+      "fullname": "Nicole",
+      "email": "nicole@gmail.com",
+      "password": "123nicole"
+    },
+    {
+      "id": "afbb",
+      "fullname": "Daniel",
+      "email": "daniel@gmail.com",
+      "password": "123daniel"
+    }
+  ]
+}

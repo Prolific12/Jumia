@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    height: 30px;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+#divOne{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+#divThree{
+    width: 5%;
+}
+#divFour{
+    width: 5%;
+}
+#small{
+    color: rgb(246,139,30);
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+#smallText{
+    color: rgb(40,40,40);
+}
+#smallFont{
+    color: rgb(246,139,30);
+}
+#divTwo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+#account:hover{
+    color: rgb(246,139,30);
+}
+#mainHeader{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    top: 0px;
+}
+#search{
+    width: 65%;
+}
+#navbarLinks{
+    width: 120px;
+}
+#headerDiv{
+    display: none;
+}
+#divProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+#productDiv{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 96%;
+    padding: 0px 5px;
+    border-radius: 5px;
+    overflow-x: scroll;
+    height: 350px;
+    background-color: white;
+}
+#product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    /* width: 20%; */
+    height: 97%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#product .rounded:hover{
+    box-shadow: 2px 2px 2px gainsboro;
+    width: 190px;
+    height: 98%;
+}
+/* #goodsLink{
+    text-decoration: none;
+    color: black;
+} */
+#searchButton{
+    border: 1px solid rgb(246,139,30);
+    background-color: rgb(246,139,30);
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+#dropdown-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#signUp{
+    width: 120px; 
+    height: 45px; 
+    background-color: rgb(246,139,30); 
+    border: 1px solid rgb(246,139,30);
+    color: white;
+}
+#signUp2{
+    width: 180px; 
+    height: 45px; 
+    background-color: rgb(246,139,30); 
+    border: 1px solid rgb(246,139,30);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#dropdownMenu{
+    width: 200px;
+}
+#body{
+    width: 100%;
+}
+#bodyOne{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#carouselExampleInterval{
+    width: 58%;
+    border-radius: 10px;
+}
+#carouselImage{
+    border-radius: 10px;
+    cursor: pointer;
+}
+#sectionOne{
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(185,116,223);
+    margin-top: 50px;
+}
+#collapseWidthExample{
+    width: 17%;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#listGroup{
+    list-style: none;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+#lists{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 4px;
+    width: 100%;
+    padding-bottom: 4px;
+}
+#supermarket{
+    text-decoration: none;
+    color: black;
+}
+#supermarket:hover{
+    color: rgb(246,139,30);
+}
+#jumiaOptions{
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 11.5px;
+}
+#jumiaImages{
+    width: 25px; 
+    height: 25px;
+}
+#jumiaStuff{
+    width: 17%;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#calls{
+    height: 47%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+}
+#call{
+    width: 25%;
+    height: 100%;
+}
+#callNames{
+    width: 75%;
+    height: 100%;
+}
+#display{
+    height: 6%;
+    width: 100%;
+}
+#callName{
+    padding-top: 15px;
+    width: 100%;
+    height: 30%;
+}
+#calling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(49, 49, 51);
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+#p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(49, 49, 51);
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+#imageDiv{
+    height: 47%;
+    border-radius: 10px;
+}
+#images{
+    border-radius: 10px;
+}
+#bodyTwo{
+    width: 100%;
+    /* height: 420px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bodyDiv{
+    width: 96%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+#bodyDivImage{
+    width: 180px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+#bodyImage{
+    width: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 180px;
+}
+/* #bodyImage:hover{
+    width: 185px;
+    height: 185px;
+} */
+#bodyDivImage:hover{
+    width: 185px;
+    height: 230px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+#bodyDivs{
+    width: 50px;
+    height: 100%;
+    /* border: 1px solid blue; */
+    position: sticky;
+}
+#sectionImage{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+#sectionImgDiv{
+    width: 96%;
+    height: 270px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sectionImg{
+    border-radius: 5px;
+    width: 98%;
+    height: 250px;
+}
+#sectionImg:hover{
+    width: 99%;
+    height: 260px;
+    cursor: pointer;
+}
+#sectionsImages{
+    width: 100%;
+    padding-top: 50px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sumecImage{
+    width: 96%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;  
+}
+#sumecDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sumecImg{
+    width: 96%;
+    height: 92%;
+}
+#sumecImg:hover{
+    width: 98%;
+    height: 94%;
+}

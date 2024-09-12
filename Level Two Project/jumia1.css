@@ -1,0 +1,242 @@
+@media (max-width:800px) {
+    #header{
+        display: none;
+    }
+    #mainHeader{
+        background-color: white !important;
+    }
+    #ulDiv{
+        display: flex !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+    /* .dropdown{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    #body{
+        height: auto;
+    }
+    .detail{
+        display: block !important;
+    }
+    #bodyOne{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #carouselDivImage{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #carouselExampleInterval{
+        width: 100%;
+        /* max-height: 300px; */
+    }
+    #jumiaStuff{
+        display: none !important;
+    }
+    /* #carouselDivImage{
+        height: 300px;
+        width: 100%;
+    } */
+    #carouselInner{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        width: 100% !important;
+        /* height: auto !important; */
+        /* overflow-x: scroll !important; */
+    }
+    #carouselImage{
+        width: 90%;
+        height: 300px;
+    }
+    #calls{
+        display: none;
+    }
+    #jumiaStuff{
+        width: 100%;
+        height: 300px;
+    }
+    #display{
+        display: none;
+    }
+    #imageDiv{
+        width: 100%;
+        /* height: ; */
+    }
+    #collapseWidthExample{
+        /* width: 300px; */
+        display: none !important;
+    }
+    #jumiaStuff{
+        /* display: none; */
+        width: 300px;
+        height: 300px;
+    }
+    #search{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #searchInput{
+        width: 75% !important;
+    }
+    #searchButton{
+        width: 25% !important;
+    }
+    #bodyTwo{
+        width: 100% !important;
+        height: 200px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    #bodyDiv{
+        display: flex !important;
+        /* align-items: center !important; */
+        justify-content: space-evenly !important;
+        overflow-x: scroll !important;
+        flex-wrap: nowrap !important;
+    }
+    #bodyDivImage{
+        width: 99% !important;
+        height: 94% !important;
+    }
+    #bodyDivImage:hover{
+        width: 100% !important;
+        height: 95% !important;
+    }
+    #bodyImage{
+        width: 150px !important;
+        height: 70% !important;
+    }
+    #sumecImage{
+        width: 98%;
+        background-color: white;
+        flex-direction: column !important;
+    }
+    #sumecDiv{
+        height: 50% !important;
+        width: 99% !important;
+    }
+    #sectionsImages{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding-top: 0 !important;
+    }
+    #sectionImage{
+        height: 250px !important;
+    }
+    #sectionImgDiv{
+        width: 100% !important;
+        height:90% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #sectionImg{
+        width: 95% !important;
+        height: 92% !important;
+    }
+    #sectionImg:hover{
+        width: 98% !important;
+        height: 97% !important;
+    }
+    #headerDiv{
+        display: flex;
+        background-color: rgb(254,226,204);
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+
+    #signDiv{
+        width: 90% !important;
+    }
+}
+@media (max-width:1024px) {
+    #mainHeader{
+        height: 70px !important;
+        display: flex;
+        background-color: white !important;
+    }
+    #ulDiv{
+        width: 50% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+    }
+    #navbarSupportedContent{
+        width: 50% !important;
+    }
+    #search{
+        width: 60% !important;
+    }
+    #regular{
+        font-size: 30px !important;
+    }
+    .detail{
+        display: none !important;
+    }
+    #bodyOne{
+        width: auto;
+        height: 380px;
+        /* display: flex !important;
+        align-items: center !important;
+        justify-content: center !important; */
+    }
+    #carouselExampleInterval{
+        width: 500px;
+        max-height: 500px;
+    }
+    #carouselImage{
+        width: 500px;
+        height: 300px;
+    }
+    #carouselDivImage{
+        height: 100% !important;
+    }
+    #collapseWidthExample{
+        /* width: 300px;  */
+        display: none !important;
+    }
+    #jumiaStuff{
+        /* display: none;  */
+        width: 300px;
+        height: 300px;
+    }
+    #bodyTwo{
+        width: 100%;
+        height: 620px;
+    }
+    #sectionImgDiv{
+        width: 95%;
+        height:250px;
+    }
+    #sectionImg{
+        width: 95%;
+        height: 90%;
+    }
+    #headerDiv{
+        display: flex;
+        background-color: rgb(254,226,204);
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+    #signDiv{
+        width: 55% !important;
+    }
+}
